@@ -42,20 +42,33 @@
 // let franklin = {}
 
 
-franklin.nom = moha.nom;
-franklin.age = johnny.age;
-franklin.taille = 180;
+// franklin.nom = moha.nom;
+// franklin.age = johnny.age;
+// franklin.taille = 180;
 
-console.log(franklin); 
+// console.log(franklin); 
 
 
-let bob = {
-    nom : 'bob',
-    prenom : 'le bricoleur',
-    sePresenter(){
-        console.log(`Bonjour je m'appelle ${bob.nom} ${bob.prenom}`);
+// let bob = {
+//     nom : 'bob',
+//     prenom : 'le bricoleur',
+//     sePresenter(){
+//         console.log(`Bonjour je m'appelle ${bob.nom} ${bob.prenom}`);
+//     }
+
+// }
+
+// bob.sePresenter()
+
+//EXO 4
+
+let objet = {
+    nom : "Blob",
+    age : 19,
+    changementAge() {
+        objet.age = prompt("changer son âge");
+        alert(`${objet.nom} a ${objet.age} ans`);
     }
-
 }
 
-bob.sePresenter()
+objet.changementAge()
