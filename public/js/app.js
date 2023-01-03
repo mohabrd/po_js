@@ -1,28 +1,62 @@
-//EXO 1
-// let moha = {
-//     nom : 'brd',
-//     prenom : 'moha',
-//     age : 19,
-//     taille : '1,70m',
+// EXO 1
+let moha = {
+    nom : 'brd',
+    prenom : 'moha',
+    age : 19,
+    taille : '170',
+
+}
+
+console.log(moha.age);
+
+//EXO 2
+
+// let johnny = {
+//     nom : 'jones',
+//     prenom : 'johnny',
+//     age : 29,
+//     taille : '180',
 
 // }
 
-// console.log(moha);
+// console.log(johnny);
 
-//EXO 2
+// let franklin = {
+
+// }
+
+// console.log(franklin);
+
+//EXO 3
 
 let johnny = {
     nom : 'jones',
     prenom : 'johnny',
     age : 29,
-    taille : '1,80m',
+    taille : '180',
 
 }
 
 console.log(johnny);
 
-let franklin = {
+let franklin = {}
+
+
+// Remplissage des propriétés du personnage3
+franklin.nom = moha.nom;
+franklin.age = johnny.age;
+franklin.taille = 180;
+
+console.log(franklin); 
+
+
+let bob = {
+    nom : 'bob',
+    prenom : 'le bricoleur',
+    sePresenter(){
+        console.log(`Bonjour je m'appelle ${bob.nom} ${bob.prenom}`);
+    }
 
 }
 
-console.log(franklin);
+bob.sePresenter()
