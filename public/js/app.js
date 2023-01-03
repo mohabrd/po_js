@@ -1,13 +1,13 @@
-// EXO 1
-let moha = {
-    nom : 'brd',
-    prenom : 'moha',
-    age : 19,
-    taille : '170',
+// // EXO 1
+// let moha = {
+//     nom : 'brd',
+//     prenom : 'moha',
+//     age : 19,
+//     taille : '170',
 
-}
+// }
 
-console.log(moha.age);
+// console.log(moha.age);
 
 //EXO 2
 
@@ -29,20 +29,19 @@ console.log(moha.age);
 
 //EXO 3
 
-let johnny = {
-    nom : 'jones',
-    prenom : 'johnny',
-    age : 29,
-    taille : '180',
+// let johnny = {
+//     nom : 'jones',
+//     prenom : 'johnny',
+//     age : 29,
+//     taille : '180',
 
-}
+// }
 
-console.log(johnny);
+// console.log(johnny);
 
-let franklin = {}
+// let franklin = {}
 
 
-// Remplissage des propriétés du personnage3
 franklin.nom = moha.nom;
 franklin.age = johnny.age;
 franklin.taille = 180;
