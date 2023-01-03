@@ -66,9 +66,9 @@ let objet = {
     nom : "Blob",
     age : 19,
     changementAge() {
-        objet.age = prompt("changer son âge");
+        objet.age = prompt("changer l'âge de Blob");
         alert(`${objet.nom} a ${objet.age} ans`);
     }
 }
 
-objet.changementAge()
+objet.changementAge();
